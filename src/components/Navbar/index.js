@@ -15,9 +15,9 @@ function Navigation() {
           <li className="nav-item ">
             <Link
 
-              to="/"
+              to="/React-Portfolio"
               className={
-                window.location.pathname === "/React-Portfolio" || window.location.pathname === "/about"
+                window.location.pathname === "/React-Portfolio" || window.location.pathname === "/about" || window.location.pathname === "/"
                   ? "nav-link active text-warning"
                   : "nav-link text-warning"
               }
