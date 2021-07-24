@@ -1,0 +1,42 @@
+.card-btn {
+  border-radius: 10%;
+  height: 50px;
+  width: 150px;
+  position: absolute;
+  border: none;
+  bottom: 10%;
+  color: #FFF;
+  font-size: 24px;
+  cursor: pointer;
+  font-family: FontAwesome;
+  outline: none;
+}
+
+.deployBTN {
+  left: 1%;
+  background: goldenrod;
+}
+
+.githubBTN {
+  right: 1%;
+  background: #005;
+}
+
+.deployBTN:hover, .githubBTN:hover {
+  animation: iconBounce .57s 1;
+}
+
+@keyframes iconBounce {
+  0% {
+    font-size: 24px;
+  }
+  
+   50% {
+    font-size: 28px;
+  }
+  
+  100% {
+    font-size: 24px;
+  }
+
+}
